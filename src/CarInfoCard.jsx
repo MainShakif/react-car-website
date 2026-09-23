@@ -1,6 +1,6 @@
 function CarInfoCard({ car }) {
   return (
-    <div className="shadow-lg rounded-2xl p-5 border-2 border-gray-300">
+    <div className="shadow-lg rounded-2xl p-5 border-2 border-gray-300 cursor-pointer hover:bg-gray-50">
       <h3 className="font-bold mb-2">{car.title}</h3>
       <h4>
         <span className="font-bold">Brand: </span>
@@ -16,7 +16,7 @@ function CarInfoCard({ car }) {
       </p>
       <p>
         <span className="font-bold">Premium: </span>
-        {car.isPremium}
+        {car.isPremium ? "Yes" : "No"}
       </p>
     </div>
   );

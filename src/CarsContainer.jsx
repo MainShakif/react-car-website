@@ -44,13 +44,13 @@ const Cars = [
 ];
 function CarsContainer() {
   return (
-    <ul className="space-y-7 grid grid-cols-3 gap-4 mt-5">
+    <div className="space-y-2 grid grid-cols-3 gap-4 mt-5">
       {Cars.map((car) => (
-        <li key={car.id}>
+        <div key={car.id}>
           <CarInfoCard car={car} />
-        </li>
+        </div>
       ))}
-    </ul>
+    </div>
   );
 }
 

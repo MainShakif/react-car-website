@@ -4,7 +4,7 @@ function SearchBox() {
       <input
         type="text"
         placeholder="Search cars..."
-        className="border-2 border-gray-300 w-80 rounded-lg px-3 py-1"
+        className="border border-gray-300 w-90 rounded-lg px-3 py-1 cursor-pointer"
       />
     </section>
   );

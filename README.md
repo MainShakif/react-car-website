@@ -1,16 +1,47 @@
-# React + Vite
+1. Explain My project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+প্রথমত, আমরা আমাদের নির্দিষ্ট Directory-তে React Project চালু করেছিলাম Command Prompt-এর মাধ্যমে নিচের কমান্ড ব্যবহার করে:
 
-Currently, two official plugins are available:
+`npm create vite@latest react-car-website-- --template react`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+এরপর একে একে প্রয়োজনীয় সব Dependencies Install করেছিলাম এবং Local Directory-এর মধ্যে একটি সম্পূর্ণ React Project তৈরি হয়েছিল।
 
-## React Compiler
+প্রথমে পুরো Design-টিকে ছোট ছোট Logical Component-এ ভাগ করেছিলাম এবং কোন Component-এর মধ্যে কোন Component থাকবে, সেটা বোঝার জন্য একটি Component Hierarchy Diagram তৈরি করেছিলাম।
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+তারপর Tailwind CSS ব্যবহার যুক্ত করে সেটি ভালো ভাবে যুক্ত হইয়েছে কিনা সেটা চেক করার পর প্রোজেক্ট GitHub এর সাথে connect করে নিয়েছিলাম এবং Vercel platform এ Deploy করেছিলাম।
 
-## Expanding the ESLint configuration
+এরপর সেই Hierarchy অনুযায়ী React-এ প্রয়োজনীয় Component তৈরি করেছিলাম এবং Component-গুলো একে অপরের সঙ্গে Conncet করেছিলাম Export-Import এর মাধ্যমে।
+এরপর React DevTools ব্যবহার করে তৈরি করা Component Hierarchy সঠিকভাবে হয়েছে কি না, সেটা যাচাই করেছিলাম।
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+এরপর আমাদের দেওয়া UI-টি React এর নিয়মে কোড করে তৈরি করেছিলাম। আমাদের Car Data একটি Array of Objects হিসেবে দেওয়া হয়েছিল, যা ব্যবহার করে CarsContainer এর মধ্যে CarInfoCard গুলোতে props এর মাধ্যমে Data পাঠিয়েছিলাম। এভাবে কোন ডিজাইন ছাড়াই ওয়েবসাইটটি তৈরি করেছিলাম।
+
+তারপর প্রতিটি Component-এর Styling করেছিলাম এবং provided
+Design-এর সঙ্গে মিল রাখার চেষ্টা করেছিলাম।
+
+সবশেষে Project-এ কোনো ESLint Error বা Console Error আছে কি না, সেটা পরীক্ষা করেছিলাম।
+
+এরপর Project এর সেই কাজটুকু GitHub-এ Push করেছিলাম এবং Project-টি Deploy করেছিলাম।
+
+সবশেষে Project সম্পর্কে প্রয়োজনীয় তথ্য, Project কীভাবে চালাতে হবে এবং Deployment Link সহ প্রয়োজনীয় বিষয়গুলো README File-এ Document করেছিলাম।
+
+#2.How to run the project
+কোড করার সময় live output দেখার জন্য "npm run dev" command use করে terminal e localhost server link use করেছি.
+
+#3.The screenshot of the UX design diagram
+
+![UX design diagram](./screenshots/Componentbreakdowndiagram.png)
+
+#4. Component Hierarchy diagram
+
+![Component Hierarchy diagram](./screenshots/Componenthierarchydiagram.png)
+
+#5. React Dev Tools Screenshot
+
+![React Dev Tools Screenshot](./screenshots/ReactdevtoolSS.png)
+
+
+#6. The Readme should have the deploy link of the app too.
+
+tapaScript Cars App
+ 
+LiveLink:  

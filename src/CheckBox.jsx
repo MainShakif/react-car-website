@@ -1,8 +1,8 @@
 function CheckBox() {
   return (
     <div className="flex gap-2">
-      <input type="checkbox" />
-      <label>Show Premium Only</label>
+      <input type="checkbox" className="cursor-pointer" />
+      <label className="font-semibold text-sm">Show Premium Only</label>
     </div>
   );
 }
