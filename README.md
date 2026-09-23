@@ -24,7 +24,7 @@ Design-এর সঙ্গে মিল রাখার চেষ্টা ক�
 
 সবশেষে Project সম্পর্কে প্রয়োজনীয় তথ্য, Project কীভাবে চালাতে হবে এবং Deployment Link সহ প্রয়োজনীয় বিষয়গুলো README File-এ Document করেছিলাম।
 
-#2.How to run the project
+#2.How to run the project:
 কোড করার সময় live output দেখার জন্য "npm run dev" command use করে terminal e localhost server link use করেছি.
 
 #3.The screenshot of the UX design diagram
