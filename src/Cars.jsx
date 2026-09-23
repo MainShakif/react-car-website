@@ -3,8 +3,7 @@ import FormGroup from "./FormGroup";
 import CarsContainer from "./CarsContainer";
 function Cars() {
   return (
-    <div>
-      cars Main Container
+    <div className="max-w-6xl mx-auto font-monospace">
       <Header />
       <FormGroup />
       <CarsContainer />

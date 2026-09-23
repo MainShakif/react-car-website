@@ -3,8 +3,7 @@ import SearchBox from "./SearchBox";
 
 function FormGroup() {
   return (
-    <div>
-      FormGroup
+    <div className="flex items-center gap-5">
       <SearchBox />
       <CheckBox />
     </div>
