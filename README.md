@@ -29,7 +29,7 @@ Design-এর সঙ্গে মিল রাখার চেষ্টা ক�
 
 #3.The screenshot of the UX design diagram
 
-![UXdesigndiagram](./Screenshots/Componentbreakdowndiagram.png)
+![UX designdiagram](./Screenshots/SSofUXdesign.png)
 
 #4. Component Hierarchy diagram
 
