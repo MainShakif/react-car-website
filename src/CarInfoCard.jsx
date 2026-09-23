@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 function CarInfoCard({ car }) {
   return (
     <div className="shadow-lg rounded-2xl p-5 border-2 border-gray-300 cursor-pointer hover:bg-gray-50">
@@ -21,5 +22,15 @@ function CarInfoCard({ car }) {
     </div>
   );
 }
+
+CarInfoCard.propTypes = {
+  car: PropTypes.shape({
+    title: PropTypes.string.isRequired,
+    brand: PropTypes.string.isRequired,
+    year: PropTypes.number.isRequired,
+    price: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
+    isPremium: PropTypes.bool.isRequired,
+  }).isRequired,
+};
 
 export default CarInfoCard;
