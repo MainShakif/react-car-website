@@ -29,19 +29,18 @@ Design-এর সঙ্গে মিল রাখার চেষ্টা ক�
 
 #3.The screenshot of the UX design diagram
 
-![UX design diagram](./screenshots/Componentbreakdowndiagram.png)
+![UXdesigndiagram](./Screenshots/Componentbreakdowndiagram.png)
 
 #4. Component Hierarchy diagram
 
-![Component Hierarchy diagram](./screenshots/Componenthierarchydiagram.png)
+![ComponentHierarchydiagram](./Screenshots/Componenthierarchydiagram.png)
 
 #5. React Dev Tools Screenshot
 
-![React Dev Tools Screenshot](./screenshots/ReactdevtoolSS.png)
-
+![ReactDevToolsScreenshot](./Screenshots/ReactdevtoolSS.png)
 
 #6. The Readme should have the deploy link of the app too.
 
 tapaScript Cars App
- 
-Live Link: https://react-car-website-tawny.vercel.app/  
+
+Live Link: https://react-car-website-tawny.vercel.app/
